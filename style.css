@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  
+}
+.gradient{
+	background-color: black;
+	background-image:  linear-gradient(90deg, #d98c13 , #a85203);
+}
+.img{
+	background-image: url("img/2.jpg");
+	background-size: cover;
+}
+
+.text{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	position: absolute;
+	
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.name{
+	color: white;
+	font-size: 1000%;
+	font-family: "Miratrix";
+	margin: 0px;
+
+}
+
+@font-face {
+font-family: "Miratrix"; 
+
+src: url("font/Miratrix-Normal.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+.podname{
+	color: white;
+	font-family:  "Miratrix";
+	margin: 0px;
+	font-size: 200%;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 0.25s linear;
+}
+.nav{
+	position: fixed;
+	height: 100px;
+	margin: 0;
+	width: 100px;
+	color: white;
+	font-size: 250%;
+	font-family: "Miratrix"; 
+	display: flex;
+	flex-flow: column;
+	padding: 40px;
+	justify-content: space-between;
+
+	z-index: 1;
+	
+}
+a:hover{
+	color: rgba(255, 255, 255, 0.5);
+}
+#footer{
+	color: white;
+	bottom: 0;
+	position: absolute;
+	
+	width: 100%;
+	justify-content: center;
+	display: flex;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+
+
+
+}
+.photo{
+	padding: 20px;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 310px;
+    align-items: center;
+	height: 400px;
+    
+}
+.Name{
+	font-size: 150%;
+	align-content: center;
+}
+.but{
+    position: absolute;
+    left: 900000000000000px;
+}
